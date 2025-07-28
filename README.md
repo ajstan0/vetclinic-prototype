@@ -63,24 +63,6 @@ You can view the complete UI design prototype here:
 
 ---
 
-## 📂 Repository Structure
-
-```bash
-📁 vetclinic-prototype
-├── 📁 Java
-│   └── 📁 VetClinicApp   # Source code files
-├── 📁 Screenshots        # Optional screenshots folder
-├── 📄 README.md
-```
-
----
-
-## 👤 Author
-
-**Aileen Joyce Tan**  
-GitHub: [@ajstan0](https://github.com/ajstan0)
-
-
 ## 🎨 Figma Screenshots
 
 These are the UI designs showcased in the Figma prototype:
@@ -97,3 +79,21 @@ These are the UI designs showcased in the Figma prototype:
 - [Result Notification](https://github.com/ajstan0/vetclinic-prototype/blob/main/result-notif.png?raw=true)
 - [Account Page](https://github.com/ajstan0/vetclinic-prototype/blob/main/account.png?raw=true)
 - [Full Figma Board](https://github.com/ajstan0/vetclinic-prototype/blob/main/whole%20board.png?raw=true)
+  
+
+## 📂 Repository Structure
+
+```bash
+📁 vetclinic-prototype
+├── 📁 Java
+│   └── 📁 VetClinicApp   # Source code files
+├── 📁 Screenshots        # Optional screenshots folder
+├── 📄 README.md
+```
+
+---
+
+## 👤 Author
+
+**Aileen Joyce Tan**  
+GitHub: [@ajstan0](https://github.com/ajstan0)
