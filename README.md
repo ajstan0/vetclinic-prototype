@@ -1,22 +1,65 @@
-# Veterinary Clinic Customer Management App (Prototype)
+# Vet Clinic App Prototype
 
-This is a prototype design for a mobile application intended to streamline customer and pet management for a veterinary clinic.
+This repository contains the UI prototype for a mobile **Vet Clinic Appointment App** developed using Figma. The app allows users to register, log in, manage pets, book appointments, and use QR codes for check-in.
 
-## Project Overview
-- Designed using Figma
-- Includes user authentication, pet record management, QR-based check-in, and appointment booking
-- Built as a working interactive prototype — no actual app code implemented
+---
 
-## Technologies Planned
-- Flutter (Dart) for app development
-- Firebase for authentication and backend (intended)
-- QR scanner libraries (e.g., qr_flutter)
+## 🧭 Overview
 
-## Prototype Link
-🔗 [Figma Prototype](https://www.figma.com/design/ta0EEntbhKKewXAgcLqNHu/APP-TECH---PROJ?node-id=0-1&t=AU5ey454QzhaZ4Ph-1)
+This app was designed to streamline the process of booking veterinary appointments and managing pet profiles in a mobile environment. The prototype simulates all core features without backend integration.
 
-## Status
-This project is currently at the prototype stage. Full implementation was not completed.
+---
 
-## Documentation
-The full project documentation (proposal, ERD, acceptance criteria, and UI designs) is attached in the `docs/` folder.
+## 📱 Screenshots
+
+Below are the key screens from the Figma prototype:
+
+### 🔐 Login & Registration
+- [Login Screen](https://github.com/ajstan0/vetclinic-prototype/blob/main/login.png?raw=true)
+- [Sign Up Screen](https://github.com/ajstan0/vetclinic-prototype/blob/main/signup.png?raw=true)
+
+### 🏠 Home Page
+- [Home Screen](https://github.com/ajstan0/vetclinic-prototype/blob/main/home.png?raw=true)
+
+### 📅 Appointments
+- [Book Appointment](https://github.com/ajstan0/vetclinic-prototype/blob/main/book%20appointment.png?raw=true)
+
+### 🐾 Pet Management
+- [My Pets](https://github.com/ajstan0/vetclinic-prototype/blob/main/my%20pets.png?raw=true)
+- [Edit/Add Pets](https://github.com/ajstan0/vetclinic-prototype/blob/main/edit%20pets.png?raw=true)
+
+### 📷 QR Check-In
+- [QR Scanner](https://github.com/ajstan0/vetclinic-prototype/blob/main/qr.png?raw=true)
+- [QR Scan Success](https://github.com/ajstan0/vetclinic-prototype/blob/main/result-success.png?raw=true)
+- [QR Scan Failed](https://github.com/ajstan0/vetclinic-prototype/blob/main/result-fail.png?raw=true)
+
+### 👤 Account Profile
+- [Account Page](https://github.com/ajstan0/vetclinic-prototype/blob/main/account.png?raw=true)
+
+### ✅ Feedback/Notifications
+- [Pet Saved](https://github.com/ajstan0/vetclinic-prototype/blob/main/result-notif.png?raw=true)
+
+---
+
+## 🗺️ Full Prototype Board
+
+The complete design board is shown below:
+
+![Full Prototype Overview](https://github.com/ajstan0/vetclinic-prototype/blob/main/whole%20board.png?raw=true)
+
+---
+
+## 📌 Notes
+
+- This project was developed as a **prototype only**, without actual code implementation.
+- The Figma design simulates user flows but does not include backend/database integration.
+
+---
+
+## 📎 Repository Structure
+
+```bash
+📁 vetclinic-prototype
+├── 📸 Screenshots (.png)
+├── 📄 README.md
+└── 📂 [Add additional docs or folders if needed]
