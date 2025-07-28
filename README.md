@@ -1,4 +1,3 @@
-
 # VetClinic Prototype
 
 A desktop-based Java Swing application simulating a veterinary clinic appointment and pet management system. This project includes both a working prototype built in NetBeans and a UI mockup built in Figma.
@@ -80,3 +79,21 @@ You can view the complete UI design prototype here:
 
 **Aileen Joyce Tan**  
 GitHub: [@ajstan0](https://github.com/ajstan0)
+
+
+## 🎨 Figma Screenshots
+
+These are the UI designs showcased in the Figma prototype:
+
+- [Login Screen](https://github.com/ajstan0/vetclinic-prototype/blob/main/login.png?raw=true)
+- [Sign Up Screen](https://github.com/ajstan0/vetclinic-prototype/blob/main/signup.png?raw=true)
+- [Home Screen](https://github.com/ajstan0/vetclinic-prototype/blob/main/home.png?raw=true)
+- [Book Appointment](https://github.com/ajstan0/vetclinic-prototype/blob/main/book%20appointment.png?raw=true)
+- [My Pets](https://github.com/ajstan0/vetclinic-prototype/blob/main/my%20pets.png?raw=true)
+- [Edit/Add Pets](https://github.com/ajstan0/vetclinic-prototype/blob/main/edit%20pets.png?raw=true)
+- [QR Scanner](https://github.com/ajstan0/vetclinic-prototype/blob/main/qr.png?raw=true)
+- [QR Scan Success](https://github.com/ajstan0/vetclinic-prototype/blob/main/result-success.png?raw=true)
+- [QR Scan Fail](https://github.com/ajstan0/vetclinic-prototype/blob/main/result-fail.png?raw=true)
+- [Result Notification](https://github.com/ajstan0/vetclinic-prototype/blob/main/result-notif.png?raw=true)
+- [Account Page](https://github.com/ajstan0/vetclinic-prototype/blob/main/account.png?raw=true)
+- [Full Figma Board](https://github.com/ajstan0/vetclinic-prototype/blob/main/whole%20board.png?raw=true)
