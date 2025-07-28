@@ -1,104 +1,82 @@
-# VetClinic App Prototype and Java Simulation
 
-This repository contains both the **Figma-based prototype** and the **Java Swing simulation** for a veterinary clinic appointment and pet management system. It was developed for academic submission and demonstrates UI/UX concepts and basic desktop application logic.
+# VetClinic Prototype
 
----
-
-## 📱 Figma Prototype Overview
-
-The mobile prototype was designed using [Figma](https://www.figma.com/design/ta0EEntbhKKewXAgcLqNHu/APP-TECH---PROJ?node-id=0-1&t=tUG3z7mO5DGjueTi-1) to simulate user flows without backend integration. It features registration, pet management, appointment booking, and QR check-in.
-
-### 🔐 Login & Registration
-- [Login Screen](https://github.com/ajstan0/vetclinic-prototype/blob/main/login.png?raw=true)
-- [Sign Up Screen](https://github.com/ajstan0/vetclinic-prototype/blob/main/signup.png?raw=true)
-
-### 🏠 Home Page
-- [Home Screen](https://github.com/ajstan0/vetclinic-prototype/blob/main/home.png?raw=true)
-
-### 📅 Appointments
-- [Book Appointment](https://github.com/ajstan0/vetclinic-prototype/blob/main/book%20appointment.png?raw=true)
-
-### 🐾 Pet Management
-- [My Pets](https://github.com/ajstan0/vetclinic-prototype/blob/main/my%20pets.png?raw=true)  
-  _➤ Notably scrollable to support long pet lists._
-- [Edit/Add Pets](https://github.com/ajstan0/vetclinic-prototype/blob/main/edit%20pets.png?raw=true)
-
-### 📷 QR Check-In
-- [QR Scanner](https://github.com/ajstan0/vetclinic-prototype/blob/main/qr.png?raw=true)
-- [QR Scan Success](https://github.com/ajstan0/vetclinic-prototype/blob/main/result-success.png?raw=true)
-- [QR Scan Failed](https://github.com/ajstan0/vetclinic-prototype/blob/main/result-fail.png?raw=true)
-
-### 👤 Account Profile
-- [Account Page](https://github.com/ajstan0/vetclinic-prototype/blob/main/account.png?raw=true)
-
-### ✅ Feedback/Notifications
-- [Pet Saved Notification](https://github.com/ajstan0/vetclinic-prototype/blob/main/result-notif.png?raw=true)
-
-### 🗺️ Full Prototype Board
-- [Full View](https://github.com/ajstan0/vetclinic-prototype/blob/main/whole%20board.png?raw=true)
+A desktop-based Java Swing application simulating a veterinary clinic appointment and pet management system. This project includes both a working prototype built in NetBeans and a UI mockup built in Figma.
 
 ---
 
-## 💻 Java Swing Simulation
+## 🧭 Overview
 
-A working Java Swing application was developed in NetBeans based on the Figma design. It simulates core functionalities like login, pet management, and QR scanning.
-
-### 🔧 Features
-
-- Login screen with validation
-- Navigation between modules (appointments, QR scan, pet management)
-- CRUD operations for pets
-- Feedback via dialogs
-- Basic validation logic
-
-### 📷 Java App Screenshots
-
-- [Login (Valid)](https://github.com/ajstan0/vetclinic-prototype/blob/main/Java/java_successful%20login.png?raw=true)
-- [Login (Invalid)](https://github.com/ajstan0/vetclinic-prototype/blob/main/Java/java_login%20invalid.png?raw=true)
-- [Home](https://github.com/ajstan0/vetclinic-prototype/blob/main/Java/java_home.png?raw=true)
-- [Book Appointment](https://github.com/ajstan0/vetclinic-prototype/blob/main/Java/java_manage%20booking.png?raw=true)
-- [My Pets List](https://github.com/ajstan0/vetclinic-prototype/blob/main/Java/java_after%20change%20name.png?raw=true)
-- [Add/Edit Pet (Form)](https://github.com/ajstan0/vetclinic-prototype/blob/main/Java/java_edit-add.png?raw=true)
-- [Add/Edit Pet (Confirmed)](https://github.com/ajstan0/vetclinic-prototype/blob/main/Java/java_edit-add2.png?raw=true)
-- [Rename Pet](https://github.com/ajstan0/vetclinic-prototype/blob/main/Java/java_change%20name.png?raw=true)
-- [Delete Pet](https://github.com/ajstan0/vetclinic-prototype/blob/main/Java/java_delete%20pet.png?raw=true)
-- [QR Scanner Simulated](https://github.com/ajstan0/vetclinic-prototype/blob/main/Java/java_qr.png?raw=true)
+This application allows users to:
+- Sign up and log in
+- Manage pet profiles (add/edit/delete)
+- Book appointments
+- Simulate check-in via QR scanning
+- Navigate an intuitive user interface
 
 ---
 
-## 🚀 How to Run the Java App
+## 🛠️ Technologies Used
 
-1. Open **NetBeans IDE**
-2. Create a new **Java Project**
-3. Copy and paste the contents of `VetClinicApp.java` into `src/vetclinicapp/`
-4. Compile and run
-5. Use credentials:  
-   📧 `user@example.com`  
-   🔐 `1234`
+- Java (Swing)
+- NetBeans IDE
+- GitHub for version control and image hosting
+- Figma (for UI prototyping)
+
+---
+
+## 🧪 How to Run the Java App
+
+1. Download or clone this repository.
+2. Open NetBeans IDE.
+3. Navigate to [`/Java/VetClinicApp`](https://github.com/ajstan0/vetclinic-prototype/tree/main/Java/VetClinicApp)
+4. Open `VetClinicApp.java` as your main class.
+5. Run the application using:
+   - Email: `user@example.com`
+   - Password: `1234`
+
+---
+
+## 💻 Java Application Screenshots
+
+- ![Login](https://github.com/ajstan0/vetclinic-prototype/blob/main/Java/Java_login.png?raw=true)
+- ![Invalid Login](https://github.com/ajstan0/vetclinic-prototype/blob/main/Java/java_login%20invalid.png?raw=true)
+- ![Successful Login](https://github.com/ajstan0/vetclinic-prototype/blob/main/Java/java_successful%20login.png?raw=true)
+- ![Home](https://github.com/ajstan0/vetclinic-prototype/blob/main/Java/java_home.png?raw=true)
+- ![QR](https://github.com/ajstan0/vetclinic-prototype/blob/main/Java/java_qr.png?raw=true)
+- ![Booking](https://github.com/ajstan0/vetclinic-prototype/blob/main/Java/java_manage%20booking.png?raw=true)
+- ![My Pets](https://github.com/ajstan0/vetclinic-prototype/blob/main/Java/java_edit-add%20pets.png?raw=true)
+- ![Edit Pet](https://github.com/ajstan0/vetclinic-prototype/blob/main/Java/java_after%20edit-add.png?raw=true)
+- ![Change Name](https://github.com/ajstan0/vetclinic-prototype/blob/main/Java/java_change%20name.png?raw=true)
+- ![Name Changed](https://github.com/ajstan0/vetclinic-prototype/blob/main/Java/java_after%20change%20name.png?raw=true)
+- ![Deleted Pet](https://github.com/ajstan0/vetclinic-prototype/blob/main/Java/java_delete%20pet.png?raw=true)
+
+---
+
+## 🎨 Figma Prototype
+
+You can view the complete UI design prototype here:  
+🔗 [Figma Link](https://www.figma.com/design/ta0EEntbhKKewXAgcLqNHu/APP-TECH---PROJ?node-id=0-1&t=tUG3z7mO5DGjueTi-1)
+
+### Notes:
+- The "My Pets" screen is scrollable in the mobile view.
+- UI elements in the Java version were implemented based on this Figma mockup.
 
 ---
 
 ## 📂 Repository Structure
 
 ```bash
-vetclinic-prototype/
-├── Java/                      # Screenshots of Java app
-├── *.png                     # Screens from Figma
-├── README.md                 # This file
-├── README_FIGMA.md (optional)
-└── VetClinicApp.java         # Java Swing code (if committed)
+📁 vetclinic-prototype
+├── 📁 Java
+│   └── 📁 VetClinicApp   # Source code files
+├── 📁 Screenshots        # Optional screenshots folder
+├── 📄 README.md
 ```
 
 ---
 
-## 📎 Links
-
-- 🔗 [Figma Prototype](https://www.figma.com/design/ta0EEntbhKKewXAgcLqNHu/APP-TECH---PROJ?node-id=0-1&t=tUG3z7mO5DGjueTi-1)
-- 🐙 [GitHub Repository](https://github.com/ajstan0/vetclinic-prototype)
-
----
-
-## 👩‍💻 Author
+## 👤 Author
 
 **Aileen Joyce Tan**  
-GitHub: [ajstan0](https://github.com/ajstan0)
+GitHub: [@ajstan0](https://github.com/ajstan0)
